@@ -1,0 +1,17 @@
+{
+   "resourceType":"Parameters",
+   "parameter":[
+      {
+         "name": "case-id",
+         "valueString": ""
+      },
+      {
+         "name":"set-status",
+         "valueString":"REQUEST_PENDING"
+      },
+      {
+         "name": "set-tries-left",
+         "valueInteger": 10
+      }
+   ]
+}

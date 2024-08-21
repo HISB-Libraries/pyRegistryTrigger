@@ -1,0 +1,37 @@
+{
+   "resourceType":"Parameters",
+   "parameter":[
+      {
+         "name":"patient-identifier",
+         "valueString":""
+      },
+      {
+         "name":"lab-results",
+         "resource":{
+            "resourceType":"Bundle",
+            "id":"626ae26c-b300-11ed-afa1-0242ac120002",
+            "type":"collection",
+            "entry":[
+               {
+                  "fullUrl":"Patient/705d4a04-b300-11ed-afa1-0242ac120002",
+                  "resource":{
+                     "resourceType":"Patient",
+                     "id":"705d4a04-b300-11ed-afa1-0242ac120002",
+                     "meta":{
+                        "profile":[
+                           "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+                        ]
+                     },
+                     "identifier":[
+                        {
+                           "value":""
+                        }
+                     ],
+                     "active":true
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
